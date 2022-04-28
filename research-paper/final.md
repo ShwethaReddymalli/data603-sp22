@@ -76,7 +76,7 @@ According to Databrick’s definition “Apache Spark is a lightning-fast unifie
 <br />
 <br />
 
-<img src="https://d2o2utebsixu4k.cloudfront.net/tutorials/topics/images/1576839932046-Apache-Spark---Module-3---Text-tutorial--Nithin-[Kh-Copy]_.jpg" width="600"/>
+<img src="https://d2o2utebsixu4k.cloudfront.net/tutorials/topics/images/1576839932046-Apache-Spark---Module-3---Text-tutorial--Nithin-[Kh-Copy]_.jpg" width="1000"/>
 
 <br />
 <br />
@@ -92,7 +92,7 @@ MapReduce is a software framework that enables writing applications that process
 <br />
 <br />
 
-<img src="https://cdn.thegeekdiary.com/wp-content/uploads/2018/09/mapreduce-framework-phases-sort-shuffle-and-reduce.png" width="300"/>
+<img src="https://cdn.thegeekdiary.com/wp-content/uploads/2018/09/mapreduce-framework-phases-sort-shuffle-and-reduce.png" width="1000"/>
 <br />
 <br />
 <br />
@@ -103,7 +103,7 @@ Apache is a framework that supports in-memory processing to boost the performanc
 <br />
 <br />
 
-<img src="https://docs.microsoft.com/en-us/dotnet/spark/media/spark-architecture.png" width="300"/>
+<img src="https://docs.microsoft.com/en-us/dotnet/spark/media/spark-architecture.png" width="1000"/>
 <br />
 <br />
 <br />
@@ -121,7 +121,7 @@ The differences between MR and Spark can be explained in 5 categories. These cat
 Spark is a complete data analytics engine and is the undisputed choice for data science use cases, however, Spark needs a lot of memory and if the memory is not enough for the data to fit in, it might lead to major degradation in performance. MapReduce is used for dealing with the data when it is not possible to fit into memory. This explains that Spark provides lesser latency than that MR. Because of the interaction with a hard disk, MR is less tolerant to failure and might not require a full restart in case of any disruption to the process, but Spark can cause disruption to the process as its operations occur in memory and it needs to be started from the initial point if failed in between.
 <br />
 <br />
-<img src="https://k21academy.com/wp-content/uploads/2018/10/Capture-1.png" width="350"/>
+<img src="https://k21academy.com/wp-content/uploads/2018/10/Capture-1.png" width="1000"/>
 
 <br />
 <br />
