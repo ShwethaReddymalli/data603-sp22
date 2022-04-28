@@ -1,8 +1,8 @@
-# Is MapReduce becoming obsolete or is the Spark replacing it?
+# Is MapReduce becoming obsolete or is Spark replacing it?
 
 ## ABSTRACT
 
-<style>body {text-align: justify}</style> In the world of advancements in every field and every study, the section of Big Data and its frameworks are also evolving based on the requirements of the users and to make sure that they are maintained to be user friendly. Choosing the right one from the multiple frameworks available is always a crucial decision that needs to be made by the user. We are going to compare two big frameworks in big data, that are MapReduce and Apache Spark. We will evaluate the major features of each cluster computing framework based on similar situations and understand the reasons why one of these is being replaced by the other one. Further in this paper we will look at the architecture of the frameworks, their advantages, disadvantages, and application in the real time world of big data and analyze the importance of both programming languages. In addition, the word MapReduce being obsolete will also be answered based on various short-term and long-term scenarios and transitions.
+In the world of advancements in every field and every study, the section of Big Data and its frameworks are also evolving based on the requirements of the users and to make sure that they are maintained to be user friendly. Choosing the right one from the multiple frameworks available is always a crucial decision that needs to be made by the user. We are going to compare two big frameworks in big data, that are MapReduce and Apache Spark. We will evaluate the major features of each cluster computing framework based on similar situations and understand the reasons why one of these is being replaced by the other one. Further in this paper we will look at the architecture of the frameworks, their advantages, disadvantages, and application in the real-time world of big data and analyze the importance of both programming languages. In addition, the word MapReduce being obsolete will also be answered based on various short-term and long-term scenarios and transitions.
 <br />
 <br />
 
@@ -10,7 +10,7 @@
 
 **I. Introduction**
      
-     1.1 What is Big Data and its significance in current world
+     1.1 What is Big Data and its significance in the current world
      1.2 Big Data analytics tools
      1.3 History of MapReduce
      1.4 History of Apache Spark
@@ -25,7 +25,7 @@
      
      3.1 Comparison between MapReduce and Spark
      3.2 Genre of comparison
-     3.3 Sparks's major use cases over MapReduce
+     3.3 Sparks' major use cases over MapReduce
 
 **IV. Is MapReduce Obsolete?**
     
@@ -48,9 +48,9 @@
 
 ## **I. INTRODUCTION:**
 
-### *1.1 Big Data and its significance in current world*
+### *1.1 Big Data and its significance in the current world*
 
-In this age of the modern era, big data plays a major role in the data management system and helps us perform day-to-day activities. This is an open-source software where java frames work is used to store, transfer, and calculate the data. Big data refers to vast and voluminous data sets that may be structured or unstructured and involve the process of examining large data sets to underline insights and patterns. This has been a revolution in the field of Information Technology. In the current world, big data analytics leads to intense competition and increased demand for big data professionals. They have a significant impact on various areas of work. Big Data has seen rapid growth in the market and it's getting a lot easier to automate procedures and decision making. 
+In this age of the modern era, big data plays a major role in the data management system and helps us perform day-to-day activities. This is an open-source software where java frames work is used to store, transfer, and calculate the data. Big data refers to vast and voluminous data sets that may be structured or unstructured and involve the process of examining large data sets to underline insights and patterns. This has been a revolution in the field of Information Technology. Big data analytics leads to intense competition and increased demand for big data professionals in the current world. They have a significant impact on various areas of work. Big Data has seen rapid growth in the market and it's getting a lot easier to automate procedures and decision making. 
 <br />
 <br />
 <br />
@@ -72,7 +72,7 @@ MapReduce was first popularized as a programming model in 2004 by Jeffrey Dean a
 
 ### *1.4 History of Apache Spark*
 
-According to Databrick’s definition “Apache Spark is a lightning-fast unified analytics engine for big data and machine learning. It was originally developed at UC Berkeley in 2009.” Apache Spark is one of the largest open-source projects for data processing, it has a fast and in-memory data processing engine. Spark was initially started in 2009 in UC Berkley R&D lab which is now known as AMPLab. This is considered a unified analytics engine for large-scale data processing.
+According to Databrick’s definition “Apache Spark is a lightning-fast unified analytics engine for big data and machine learning. It was originally developed at UC Berkeley in 2009.” Apache Spark is one of the largest open-source projects for data processing, it has a fast and in-memory data processing engine. Spark was initially started in 2009 in UC Berkley R&D lab, known as AMPLab. This is considered a unified analytics engine for large-scale data processing.
 <br />
 <br />
 
@@ -88,7 +88,7 @@ According to Databrick’s definition “Apache Spark is a lightning-fast unifie
 
 ### *2.1 Framework of MapReduce*
 
-MapReduce is a software framework that enables writing applications that process a vast amount of data. The framework sorts the output of the maps, which are inputted to the reduced tasks, having both the input and output of the job stored in a file system. This takes care of scheduling tasks, monitors them, and re-executes the failed tasks. This framework has a Master-slave architecture that integrates with HDFS to provide the same benefits for parallel data processing. This has phases that include mapping, shuffling, sort, and reducing. This helps in enabling you to work on large clusters of commodity hardware, in a reliable and fault-tolerate manner.  The code in MapReduce can be written in Java, C, and scripting languages. In MR programs are automatically parallelized and executed on a runtime system that manages to partition the input data, schedule execution, and manage communication, including recovery from machine failures.
+MapReduce is a software framework that enables writing applications that process a vast amount of data. The framework sorts the output of the maps, which are inputted to the reduced tasks, having both the input and output of the job stored in a file system. This takes care of scheduling tasks, monitors them, and re-executes the failed tasks. This framework has a Master-slave architecture that integrates with HDFS to provide the same benefits for parallel data processing. This has phases that include mapping, shuffling, sorting, and reducing. This helps in enabling you to work on large clusters of commodity hardware, in a reliable and fault-tolerate manner.  The code in MapReduce can be written in Java, C, and scripting languages. In MR programs are automatically parallelized and executed on a runtime system that manages to partition the input data, schedule execution, and manage communication, including recovery from machine failures.
 <br />
 <br />
 
@@ -118,7 +118,7 @@ The differences between MR and Spark can be explained in 5 categories. These cat
 <br />
 <br />
 
-Spark is a complete data analytics engine and is the undisputed choice for data science use cases, however, Spark needs a lot of memory and if the memory is not enough for the data to fit in, it might lead to major degradation in performance. MapReduce is used for dealing with the data when it is not possible to fit into memory. This explains that Spark provides lesser latency than that MR. Because of the interaction with a hard disk, MR is less tolerant to failure and might not require a full restart in case of any disruption to the process, but Spark can cause disruption to the process as its operations occur in memory and it needs to be started from initial point if failed in between.
+Spark is a complete data analytics engine and is the undisputed choice for data science use cases, however, Spark needs a lot of memory and if the memory is not enough for the data to fit in, it might lead to major degradation in performance. MapReduce is used for dealing with the data when it is not possible to fit into memory. This explains that Spark provides lesser latency than that MR. Because of the interaction with a hard disk, MR is less tolerant to failure and might not require a full restart in case of any disruption to the process, but Spark can cause disruption to the process as its operations occur in memory and it needs to be started from the initial point if failed in between.
 <br />
 <br />
 <img src="https://k21academy.com/wp-content/uploads/2018/10/Capture-1.png" width="350"/>
@@ -131,26 +131,26 @@ Comparing both tools using a specific category to better understand the importan
 <br />
 <br />
 
->Category of Product : MR is majorly a data processing engine, whereas Spark drives complete analytical solutions and hence can be considered as a data analytics engine.
+>Category of Product: MR is majorly a data processing engine, whereas Spark drives complete analytical solutions and hence can be considered as a data analytics engine.
 <br />
 
->Framework's Performance : In MaprReduce reading and writing operations are performed from and to a disk, leading to slowness in the processing speed, however, in Spark, these are minimized along with the data-in-memory allowing it to be 10 times faster but this may suffer degradation if data doesn't fit in memory.
+>Framework's Performance: In MapReduce reading and writing operations are performed from and to a disk, leading to slowness in the processing speed, however, in Spark, these are minimized along with the data-in-memory allowing it to be 10 times faster but this may suffer degradation if data doesn't fit in memory.
 <br />
 
->Latency : Due to lesser performance than Spark, MR has higher latency in computing, whereas Spark being faster, enables developers with low latency computing.
+>Latency: Due to lesser performance than Spark, MR has higher latency in computing, whereas Spark being faster, enables developers with low latency computing.
 <br />
 
->Real-time Analysis : MapReduce was built mainly for batch processing and therefore fails when used in real-time analysis cases. In the case of Spark data from the real-time live streams can be managed and processed efficiently.
+>Real-time Analysis: MapReduce was built mainly for batch processing and therefore fails when used in real-time analysis cases. In the case of Spark data from the real-time live streams can be managed and processed efficiently.
 <br />
 
->Interactive Mode : Spark has the possibility of processing the data interactively, whereas MR does not provide an interactive mode.
+>Interactive Mode: Spark has the possibility of processing the data interactively, whereas MR does not provide an interactive mode.
 <br/>
 
->Tolerance of Failure : In case of any crash, the MapReduce process is capable of starting from the place where it was left off earlier as it relies on hard disks, whereas Spark should start the processing from the beginning and hence becomes less fault-tolerant than MR as it relies on RAM.
+>Tolerance of Failure: In case of any crash, the MapReduce process is capable of starting from the place where it was left off earlier as it relies on hard disks, whereas Spark should start the processing from the beginning and hence becomes less fault-tolerant than MR as it relies on RAM.
 
 <br />
 
-### *3.3 Sparks's major use cases over MapReduce*
+### *3.3 Sparks' major use cases over MapReduce*
 
 Spark has few advancements in its procedure of processing the data. This was invented to overcome the drawbacks of MR over the period and to improvise the procedure of data analysis. One of the major use cases Spark has over MR is the implementation of iterative algorithms in Machine Learning. Unlike MR, Spark also has interactive data mining and processing. This helps the users to understand and work on the data more effectively and with ease. As Spark is a fully Apache Hive-compatible data warehousing system, that can run 100 times faster than that MapReduce. Spark is capable of stream processing, which helps in fraud detection and log processing in live streams for analysis, aggregates, and alerts while streaming. In the case of data being fetched and combined from multiple sources, an in-memory dataset is helpful as they are easy and fast to a process called Sensor data processing. Spark outshines engines when it deals with column-oriented efficient and compressed storage format. Most importantly 100lines of code needed in MR can be replaced with 10 lines using Spark representing the efficiency and ease of the code in Spark.
 
@@ -168,7 +168,7 @@ Though we see many drawbacks or limitations concerning MapReduce in the current 
 <br />
 
 ### *4.2 Application of MapReduce in short term and long term*
-Considering the advantages and limitations of MR, there are 2 reasons to justify that it will not be obsolete in short term. The companies using MR have already made huge investments in developing the applications used by MR and this will not motivate them to destroy the entire setup and opt for new execution engines. We still see many companies that use legacy applications as the users are comfortable working on them. The other reason is MR is still the best tool when it comes to maturity and throughput for non-iterative batch processing. However, considering the long-term applicability of MR, it is anticipated to be minimal by various industry ruling companies. MR will continue to decline in favor of other frameworks and platforms. As Spark is better at utilizing memory from clusters which promotes better real-time performance, it is evident and expected that Spark will replace MR in long run. 
+Considering the advantages and limitations of MR, there are 2 reasons to justify that it will not be obsolete in short term. The companies using MR have already made huge investments in developing the applications used by MR and this will not motivate them to destroy the entire setup and opt for new execution engines. We still see many companies that use legacy applications as the users are comfortable working on them. The other reason is that MR is still the best tool for maturity and throughput for non-iterative batch processing. However, considering the long-term applicability of MR, it is anticipated to be minimal by various industry ruling companies. MR will continue to decline in favor of other frameworks and platforms. As Spark is better at utilizing memory from clusters which promotes better real-time performance, it is evident and expected that Spark will replace MR in long run. 
 <br />
 <br />
 
@@ -186,7 +186,7 @@ Considering the above-discussed limitations and complexities of MapReduce, if we
 <br />
 
 ## **V. CONCLUSION:**
-Understanding all the differences between MapReduce and Spark, though they have many differences, they do have few similarities too. Deciding on the question whether the MR is outdated, yes to an extent it is because of much flexible support Apache Spark provides to its users. We also see many companies like Google who had MR as their primary data processing model in 2014 are transitioning from MR to Spark. This states that in long run we may see Spark completely taking over MapReduce. Although MR follows a restricted programming framework, it will have greater applicability if new potential features are added to it. MapReduce is for now obsolete based on the requirements of the users and the market but may have future implementations if it is upgraded to meet the requirements.
+Understanding all the differences between MapReduce and Spark, though they have many differences, they do have a few similarities too. Deciding on the question of whether the MR is outdated, yes to an extent it is because of much flexible support Apache Spark provides to its users. We also see many companies like Google which had MR as their primary data processing model in 2014 are transitioning from MR to Spark. This states that in long run we may see Spark completely taking over MapReduce. Although MR follows a restricted programming framework, it will have greater applicability if new potential features are added to it. MapReduce is for now obsolete based on the requirements of the users and the market but may have future implementations if it is upgraded to meet the requirements.
 
 <br />
 <br />
@@ -211,7 +211,7 @@ Understanding all the differences between MapReduce and Spark, though they have 
 
  6.9 [Map Reduce is Dead, Long Live Map Reduce by Jeffrey Aven,2019](https://www.linkedin.com/pulse/map-reduce-dead-long-live-jeffrey-aven/)
 
- 6.10 [Overview of Apache Spark](https://www.geeksforgeeks.org/overview-of-apache-spark/)
+6.10 [Overview of Apache Spark](https://www.geeksforgeeks.org/overview-of-apache-spark/)
 
  6.11 [Understanding the Hadoop MapReduce framework](https://www.thegeekdiary.com/understanding-the-hadoop-mapreduce-framework/)
 
